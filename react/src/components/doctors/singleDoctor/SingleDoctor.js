@@ -60,8 +60,8 @@ const SingleDoctor = (props) => {
     <>
       <div
         style={{
-          width: "350px",
-          boxShadow: "2px 2px 20px 2px rgb(176,176,176)",
+          width: "360px",
+          
           borderRadius: "20px",
           overflow: "hidden",
           color: "white",
@@ -77,7 +77,7 @@ const SingleDoctor = (props) => {
           alt="patient"
           style={{
             width: "100%",
-            height: "180px",
+          
             objectFit: "fill",
             paddingLeft: "0",
             paddingRight: "0",
@@ -106,6 +106,8 @@ const SingleDoctor = (props) => {
             backgroundImage:
               "linear-gradient(to right,rgb(78,190,200),rgb(65,90,159))",
             color: "white",
+            borderBottomLeftRadius: "20px",
+            borderBottomRightRadius: "20px",
             width: "100%",
           }}
         >

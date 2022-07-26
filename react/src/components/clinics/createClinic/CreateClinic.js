@@ -11,6 +11,7 @@ const CreateClinic = () => {
   const [openSnackbar, setOpenSnackbar] = useState(false);
   const [message, setMessage] = useState("");
   const [severity, setSeverity] = useState("");
+  const nums = "+91";
 
   const [imgData, setImgData] = useState({
     file: [],
@@ -48,7 +49,7 @@ const CreateClinic = () => {
         name: name.current.value,
         userName: userName.current.value,
         email: email.current.value,
-        phoneNumber: phoneNumber.current.value,
+        phoneNumber: nums + phoneNumber.current.value,
         password: password.current.value,
         passwordConfirm: passwordConfirm.current.value,
         address: addressData,
@@ -173,15 +174,36 @@ const CreateClinic = () => {
                         <div className="form-outline">
                           <h6 className="mb-2 pb-1">Phone Number</h6>
 
-                          <input
-                            type="text"
+                          <div className="col-auto">
+                            <label
+                              className="visually-hidden"
+                              for="autoSizingInputGroup"
+                            >
+                              +91
+                            </label>
+                            <div className="input-group">
+                              <div className="input-group-text">+91</div>
+                              <input
+                                type="text"
                             id="phone"
                             className="form-control form-control-lg "
-                            placeholder="Phone Number"
+                            placeholder="+91 Phone Number"
                             ref={phoneNumber}
                             minLength={10}
                             required
-                          />
+                              />
+                            </div>
+                          </div>
+
+                          {/* <input
+                            type="text"
+                            id="phone"
+                            className="form-control form-control-lg "
+                            placeholder="+91 Phone Number"
+                            ref={phoneNumber}
+                            minLength={10}
+                            required
+                          /> */}
                         </div>
                       </div>
                     </div>

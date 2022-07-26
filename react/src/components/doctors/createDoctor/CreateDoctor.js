@@ -12,6 +12,7 @@ const CreateDoctor = () => {
   const [openSnackbar, setOpenSnackbar] = useState(false);
   const [message, setMessage] = useState("");
   const [severity, setSeverity] = useState("");
+  const nums = "+91";
 
   const [imgData, setImgData] = useState({
     file: [],
@@ -63,7 +64,7 @@ const CreateDoctor = () => {
         department: department.current.value,
         specialist: specialist.current.value,
         experience: experience.current.value,
-        phone: phone.current.value,
+        phone: nums + phone.current.value,
         sex: male.current.checked
           ? "male"
           : female.current.checked
@@ -261,7 +262,29 @@ const CreateDoctor = () => {
                         <div className="form-outline">
                           <h6 className="mb-2 pb-1">Mobile Number</h6>
 
-                          <input
+                          <div className="col-auto">
+                            <label
+                              className="visually-hidden"
+                              for="autoSizingInputGroup"
+                            >
+                              +91
+                            </label>
+                            <div className="input-group">
+                              <div className="input-group-text"> +91</div>
+                              <input
+                                type="text"
+                            id="phone"
+                            className="form-control form-control-lg "
+                            placeholder="+91 Mobile Number"
+                            maxLength={15}
+                            minLength={10}
+                            ref={phone}
+                            required
+                              />
+                            </div>
+                          </div>
+
+                          {/* <input
                             type="text"
                             id="phone"
                             className="form-control form-control-lg "
@@ -270,7 +293,7 @@ const CreateDoctor = () => {
                             minLength={10}
                             ref={phone}
                             required
-                          />
+                          /> */}
                         </div>
                       </div>
                     </div>

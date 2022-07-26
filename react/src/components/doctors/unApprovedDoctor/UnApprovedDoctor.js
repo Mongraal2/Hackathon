@@ -51,7 +51,7 @@ const UnApprovedDoctor = () => {
         justifyContent="center"
         sx={{
           display: "flex",
-          width: 140,
+          width: 180,
           height: 31,
           background: "linear-gradient(94.43deg, #54E6D8 -14.68%, #3E4095 87%)",
           borderRadius: "64px",
@@ -73,7 +73,7 @@ const UnApprovedDoctor = () => {
             color: "#fff",
           }}
         >
-          Doctor's List
+         Unapproved Doctor List
         </Typography>
       </Box>
       <SnackbarComponent

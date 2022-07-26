@@ -97,6 +97,7 @@ const content = [
     items: [
       { text: "Doctor List", slug: "doctor-list" },
       { text: "Create Doctor", slug: "create-doctor" },
+
       { text: "Unapproved Doctor List", slug: "unapproved-doctor-list" },
       { text: "Blocked Doctor List", slug: "blocked-doctor-list" },
       { text: "Doctor Schedule", slug: "doctor-schedule" },
