@@ -1,0 +1,31 @@
+.mainContainer{
+    display: flex;
+  justify-content: space-around !important;
+}
+.img{
+    height: 190px !important;
+    width: 250px;
+}
+.adminImg{
+  margin-Left: 150px
+}
+@media screen and (max-width: 900px) and (min-width:250px) {
+  .mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+.img{
+  height: 190px !important;
+  width: 250px;
+
+}
+.adminImg{
+  margin-Left: 20px !important
+}
+}
+
+/* @media screen and (max-width: 767px) {
+ .paswd{
+ margin: 0px;
+ }
+} */

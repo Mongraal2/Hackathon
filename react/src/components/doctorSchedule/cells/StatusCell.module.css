@@ -1,0 +1,19 @@
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.active {
+  height: 12px;
+  width: 12px;
+  background: green;
+  border-radius: 50%;
+}
+.inactive {
+  height: 12px;
+  width: 12px;
+  background: gray;
+  border-radius: 50%;
+}

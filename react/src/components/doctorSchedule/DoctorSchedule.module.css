@@ -1,0 +1,13 @@
+.header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.4737px;
+  line-height: 23px;
+
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}

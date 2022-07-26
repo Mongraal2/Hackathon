@@ -1,0 +1,17 @@
+/* .field {
+  border-radius: 0 !important;
+  outline: none !important;
+}
+
+.field:focus,
+.field:active,
+field:hover {
+  border: 1px solid blue !important;
+  border-radius: 0 !important;
+  outline: none !important;
+} */
+@media screen and (min-width:250px) and (max-width:900px) {
+  .mainForm{
+   max-width:100% !important
+  }
+ }
