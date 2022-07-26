@@ -1,0 +1,32 @@
+.mainChart{
+    overflow-x: hidden;
+    display: flex;
+}
+.imgDas{
+ 
+  width: 56px;
+  height: 56px;
+ 
+}
+     .pieAlign{
+      margin-left: 2rem !important;
+     }
+  @media screen and (max-width: 900px) and (min-width:250px) {
+    .mainChart {
+      display: block;
+      width: fit-content;
+      overflow-x: hidden !important;
+     }
+     .mainContent{
+      overflow-x: hidden !important;
+     }
+     .pieAlign{
+      margin-left: 2rem !important;
+     }
+  }
+  @media screen and (min-width: 700px) and (max-width:2000px) {
+    .pie
+    {
+      padding-left: 51px;
+    }
+  }

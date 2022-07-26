@@ -1,0 +1,32 @@
+.mainAddDoctor{
+   display: flex !important;
+   width: 100% !important;
+   flex-wrap: wrap;
+}
+.addDoctorGrid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+
+}
+/* .threeDotx{
+    position: relative;
+    cursor: pointer;
+     left:41%
+} */
+@media screen and (min-width:250px) and (max-width:900px) {
+    .mainForm{
+     max-width:100% !important
+    }
+ 
+   }
+
+@media screen and (min-width:912px) and (max-width:1400px) {
+    .mainForm{
+     max-width:100% !important
+    }
+
+   } 

@@ -1,0 +1,25 @@
+.image {
+  width: 78.6px;
+  height: 78.6px;
+  aspect-ratio: 1 / 1;
+  border-radius: 58.36px;
+}
+
+.more {
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+  right: 15px;
+}
+
+.btn-more-md{
+  background-color: black;
+}
+.bg{
+  background-color: black;
+}
+.btn-more{
+  display: none;
+  background-color: black;
+   }
+

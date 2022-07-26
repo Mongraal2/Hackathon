@@ -1,0 +1,13 @@
+.image {
+  width: 78.6px;
+  height: 78.6px;
+  aspect-ratio: 1 / 1;
+  border-radius: 58.36px;
+}
+
+.more {
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+  right: 5px;
+}
