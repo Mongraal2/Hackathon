@@ -65,6 +65,7 @@ const CreateClinic = () => {
           headers: { "Content-Type": "multipart/form-data" },
         }
       );
+      console.log(coordinates);
       setOpenSnackbar(true);
       setMessage(res.data.message);
       setSeverity("success");
@@ -185,12 +186,12 @@ const CreateClinic = () => {
                               <div className="input-group-text">+91</div>
                               <input
                                 type="text"
-                            id="phone"
-                            className="form-control form-control-lg "
-                            placeholder="+91 Phone Number"
-                            ref={phoneNumber}
-                            minLength={10}
-                            required
+                                id="phone"
+                                className="form-control form-control-lg "
+                                placeholder="+91 Phone Number"
+                                ref={phoneNumber}
+                                minLength={10}
+                                required
                               />
                             </div>
                           </div>
